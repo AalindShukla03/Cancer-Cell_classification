@@ -22,7 +22,7 @@
 
 <h2>Step by step implementation of classification using Scikit-learn :</h2>
  <ul>
-  <li># importing the Python module
+  <li>
 import sklearn
 
 # importing the dataset
