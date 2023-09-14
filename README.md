@@ -95,8 +95,7 @@ The sklearn module has a built-in function called the train_test_split(), which 
     from sklearn.model_selection import train_test_split
 
 # splitting the data
-    train, test, train_labels, test_labels = train_test_split(features, labels,
-									test_size = 0.33, random_state = 42)
+    train, test, train_labels, test_labels = train_test_split(features, labels,test_size = 0.33, random_state = 42)
 
 <p>The train_test_split() function randomly splits the data using the parameter test_size. What we have done here is that we have split 33% of the original data into test data (test). The remaining data (train) is the training data. Also, we have respective labels for both the train variables and test variables, i.e. train_labels and test_labels.</p>
 
@@ -137,7 +136,7 @@ from sklearn.naive_bayes import GaussianNB
 # evaluating the accuracy
     print(accuracy_score(test_labels, predictions))
 <strong>Output :</strong>
-<prev>0.9414893617021277</prev>
+<pre>0.9414893617021277</pre>
 <p>So, we find out that this machine learning classifier based on the Naive Bayes algorithm is 94.15% accurate in predicting whether a tumor is malignant or benign.<br>&nbsp;</p>
 
 
