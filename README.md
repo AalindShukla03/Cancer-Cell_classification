@@ -137,7 +137,7 @@ from sklearn.naive_bayes import GaussianNB
 # evaluating the accuracy
     print(accuracy_score(test_labels, predictions))
 <strong>Output :</strong>
-0.9414893617021277
+<prev>0.9414893617021277</prev>
 <p>So, we find out that this machine learning classifier based on the Naive Bayes algorithm is 94.15% accurate in predicting whether a tumor is malignant or benign.<br>&nbsp;</p>
 
 
